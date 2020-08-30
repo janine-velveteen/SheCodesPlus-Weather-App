@@ -59,17 +59,20 @@ body {
 .five-hours {
   padding-top: 60px;
   color: #000;
+  text-align: center;
 }
 
 .icons {
   font-size: 28px;
   padding-top: 5px;
   width: 100%;
+  text-align: center;
 }
 
 .hour-temps {
   padding-top: 5px;
   width: 100%;
+  text-align: center;
 }
 
 .github-link {
