@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App HTML CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="all">
+        <form class="search-bar" id="search-form">
+          <input
+            type="text"
+            placeholder="Search city here"
+            autocomplete="off"
+            id="search-city"
+          />
+          <input type="submit" value="Search 🔍" />
+          <input type="submit" value="📍" id="current-location-button" />
+        </form>
+
+        <h1 class="city" id="city-value">Toronto</h1>
+        <h2 class="day-time">
+          <span id="current-day-time">Tuesday 16:00</span>
+        </h2>
+        <div class="row">
+          <div class="col-6 text-center">
+            <img
+              src="http://openweathermap.org/img/wn/01d@2x.png"
+              alt="Sunny"
+              id="icon"
+              class="float-left"
+            />
+            <h1 class="current-temp" id="temperature">27°</h1>
+
+            <span class="units">
+              <a href="#" id="celsius-link">C</a> |
+              <a href="#" id="fahrenheit-link">F</a></span
+            >
+            <div class="current-hi-low">
+              <strong id="high">28°</strong>/
+              <div id="low">21°</div>
+            </div>
+          </div>
+
+          <div class="conditions">
+            <div class="col-6 text-center">
+              <i class="fas fa-tint"></i><strong>Humidity</strong> <br />
+              <div id="humidity">0%</div>
+              <i class="fas fa-wind"></i><strong>Wind</strong>
+              <div id="wind-speed">14kmh</div>
+            </div>
+          </div>
+        </div>
+
+        <section>
+          <div class="row five-hours"></div>
+        </section>
+
+        <footer>
+          Life in the Clouds
+          <br />
+          <a href="https://github.com/janine-velveteen/LifeInTheClouds-Final"
+            >Open-Sourced Code</a
+          >
+          by Janine Marsh
+        </footer>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

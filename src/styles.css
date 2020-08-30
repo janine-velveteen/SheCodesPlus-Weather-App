@@ -1,0 +1,89 @@
+.all {
+  height: 750px;
+  width: 750px;
+  margin: 68px auto;
+  background: linear-gradient(-225deg, #7085b6 0%, #87a7d9 50%, #def3f8 100%);
+  box-shadow: 0px 0px 15px -6px rgba(4, 0, 31, 0.5);
+  border-radius: 5px;
+  font-family: "Comfortaa", cursive;
+}
+
+body {
+  width: 100%;
+}
+
+.search-bar {
+  position: relative;
+  left: 335px;
+  top: 18px;
+}
+
+.city {
+  margin-top: 25px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.day-time {
+  text-align: center;
+  color: #fff;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.city {
+  color: #fff;
+}
+
+.current-temp {
+  font-size: 75px;
+  margin-top: 30px;
+  padding-left: 80px;
+  color: #fff;
+}
+
+.current-hi-low {
+  font-size: 28px;
+}
+
+.conditions {
+  margin-top: 47px;
+  padding-left: 40px;
+  font-size: 22px;
+  color: #000;
+}
+
+.five-hours {
+  padding-top: 60px;
+  color: #000;
+}
+
+.icons {
+  font-size: 28px;
+  padding-top: 5px;
+  width: 100%;
+}
+
+.hour-temps {
+  padding-top: 5px;
+  width: 100%;
+}
+
+.github-link {
+  text-align: center;
+}
+
+.units {
+  font-size: 20px;
+  line-height: 70px;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  padding-top: 10px;
+}
