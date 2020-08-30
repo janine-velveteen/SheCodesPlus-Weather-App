@@ -45,6 +45,11 @@ body {
   color: #fff;
 }
 
+#icon {
+  padding-left: 50px;
+  padding-right: 5px;
+}
+
 .current-hi-low {
   font-size: 28px;
 }
